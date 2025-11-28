@@ -1,0 +1,5 @@
+CREATE TABLE cathedrals (
+	id SERIAL PRIMARY KEY,
+	name VARCHAR(1024) NOT NULL,
+	chief VARCHAR(1024) NOT NULL
+);
